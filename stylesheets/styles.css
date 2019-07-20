@@ -3,3 +3,28 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: black
 }
+
+ul {
+    list-style: none;
+}
+
+.main_menu {
+    background: rgba(46, 46, 46, 0.98);
+}
+
+.main_menu__links {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    margin: 0;
+}
+
+.main_menu__item {
+    display: inline;
+    vertical-align: middle;
+    height: 44px;
+}
+
+.main_menu__logo img {
+    width: 16px;
+}
